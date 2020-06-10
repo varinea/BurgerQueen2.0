@@ -4,7 +4,7 @@ const Login = () => {
     return (
         <div>
             <h1>login</h1>
-            <button >Ingresar</button>  
+            <button >Ingresar</button>
         </div>
     )
 }

@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Login from "./components/Login";
 import Registry from "./components/Registry";
-import Options from './components/Options';
+import Options from "./components/Options";
 import Breakfast from "./components/Breakfast";
 import Lunch from "./components/Lunch";
 import Chef from "./components/Chef";
@@ -24,16 +24,16 @@ function App() {
           <Registry />
         </Route>
         <Route path="/options">
-          <Options />
+        <Options />
         </Route>
         <Route path="/breakfast">
-          <Breakfast />
+        <Breakfast />
         </Route>
         <Route path="/lunch">
-          <Lunch />
+        <Lunch />
         </Route>
         <Route path="/chef">
-          <Chef />
+        <Chef />
         </Route>
       </Switch>
     </Router>
