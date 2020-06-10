@@ -1,0 +1,115 @@
+[
+    {
+        "id":"b1",
+        "name":"Café americano",
+        "price":500
+    },
+    {
+        "id":"b2",
+        "name":"Café con leche",
+        "price":700
+    },
+    {
+        "id":"b3",
+        "name":"Sandwich jamón y queso",
+        "price":1000
+    },
+    {
+        "id":"b4",
+        "name":"jugo de frutas natural",
+        "price":700
+    },
+    {
+        "id":"l1",
+        "name":"Hamburguesa simple",
+        "price":1000,
+        "extras":[
+            {
+                "id":"ex1",
+                "name":"Huevo",
+                "price":100
+            },  
+            {
+                "id":"ex2",
+                "name":"Queso",
+                "price":100
+            }    
+        ],
+        "options":[
+            {
+                "id":"type1",
+                "name":"Pollo"
+            },
+            {
+                "id":"type2",
+                "name":"Carne"
+            },
+            {
+                "id":"type3",
+                "name":"Vegetariana"
+            }
+        ]
+    },
+    {
+        "id":"l2",
+        "name":"Hamburguesa doble",
+        "price":1500,
+        "extras":[
+            {
+                "id":"ex1",
+                "name":"Huevo",
+                "price":100
+            },  
+            {
+                "id":"ex2",
+                "name":"Queso",
+                "price":100
+            }    
+        ],
+        "options":[
+            {
+                "id":"type1",
+                "name":"Pollo"
+            },
+            {
+                "id":"type2",
+                "name":"Carne"
+            },
+            {
+                "id":"type3",
+                "name":"Vegetariana"
+            }
+        ]
+    },
+    {
+        "id":"l3",
+        "name":"Papas fritas",
+        "price":500
+    },
+    {
+        "id":"l4",
+        "name":"Aros de cebolla",
+        "price":500
+    },
+    {
+        "id":"l5",
+        "name":"Agua 500ml",
+        "price":500
+    },
+    {
+        "id":"l6",
+        "name":"Agua 750ml",
+        "price":700
+    },
+    {
+        "id":"l7",
+        "name":"Bebida/Gaseosa 500ml",
+        "price":700
+    },
+    {
+        "id":"l7",
+        "name":"Bebida/Gaseosa 750ml",
+        "price":1000
+    }
+
+]
