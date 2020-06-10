@@ -6,40 +6,36 @@ import {
   // Link
 } from "react-router-dom";
 import Login from "./components/Login";
-import Registro from "./components/Registro";
-import MeseroUno from "./components/MeseroUno";
-import MeseroDos from "./components/MeseroDos";
-import MeseroTres from "./components/MeseroTres";
-import Cocina from "./components/Cocina";
+import Registry from "./components/Registry";
+import Options from "./components/Options";
+import Breakfast from "./components/Breakfast";
+import Lunch from "./components/Lunch";
+import Chef from "./components/Chef";
 
 
 function App() {
   return (
     <Router>
-    <div className="container">
-      <h1>Hola!.</h1>
-      <hr />
       <Switch>
-        <Route path="/login">
+        <Route path="/" exact>
           <Login />
         </Route>
-        <Route path="/registro">
-          <Registro />
+        <Route path="/registry">
+          <Registry />
         </Route>
-        <Route path="/meseroUno">
-        <MeseroUno />
+        <Route path="/options">
+        <Options />
         </Route>
-        <Route path="/meseroDos">
-        <MeseroDos />
+        <Route path="/breakfast">
+        <Breakfast />
         </Route>
-        <Route path="/meseroTres">
-        <MeseroTres />
+        <Route path="/lunch">
+        <Lunch />
         </Route>
-        <Route path="/cocina">
-        <Cocina />
+        <Route path="/chef">
+        <Chef />
         </Route>
       </Switch>
-    </div>
     </Router>
   );
 }
