@@ -48,7 +48,6 @@ const Breakfast = () => {
                         <button type="button" className="btn btn-breakfast">SANDWICH DE JAMÓN Y QUESO $1.000</button>
                         <button type="button" className="btn btn-breakfast">CAFÉ CON LECHE $700</button>
                         <button type="button" className="btn btn-breakfast">JUEGO DE FRUTA NATURAL $700</button>
-                    
                 </div>
             
 
